@@ -31,4 +31,5 @@ docker ps -aq -f name="anime-kr"
 
 ```
 docker ps -aq -f name="^anime-kr$"
+docker inspect --format='{{.Name}}' 'anime-kr'
 ```
