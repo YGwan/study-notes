@@ -30,7 +30,13 @@ docker-compose exec
 docker0-compose build
 ```
 
+<br>
+
+---
+
 ## docker-compose.yml file's grammar
+
+<br>
 
 ### 실행할 컨테이너 정의
 
@@ -42,6 +48,8 @@ services:
     ...
 ```
 
+<br>
+
 ### 컨테이너에 사용할 이미지 이름과 태그 설정
 ``` yaml
 
@@ -50,6 +58,8 @@ servives:
     image: <image_name:tag>
     ...
 ```
+
+<br>
 
 ### 컨테이너와 연결할 포트 설정
 ``` yaml
@@ -61,6 +71,8 @@ servives:
       - <HOST_PORT:CONTAINER_PORT>
     ...
 ```
+
+<br>
 
 ### 컨테이너에 사용할 환경변수
 ``` yaml
@@ -74,6 +86,8 @@ servives:
     ...
 ```
 
+<br>
+
 ### 연결할(마운트할) 파일들
 ``` yaml
 
@@ -84,6 +98,8 @@ servives:
       -<HOST_DIRECTORY:CONTAINER_DIRECTORY>
     ...
 ```
+
+<br>
 
 ### 재시작 정책 설정
 ``` yaml
@@ -97,6 +113,8 @@ servives:
 # POLICY
 no, always, on-failure, unless-stopped
 ```
+
+<br>
 
 ### 이미지 빌드
 ``` yaml
