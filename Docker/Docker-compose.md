@@ -68,7 +68,7 @@ servives:
   <CONTAINER_NAME>:
     ...
     ports:
-      - <HOST_PORT:CONTAINER_PORT>
+      - "<HOST_PORT:CONTAINER_PORT>"
     ...
 ```
 
@@ -91,7 +91,7 @@ servives:
 ### 연결할(마운트할) 파일들
 ``` yaml
 
-servives:
+services:
   <CONTAINER_NAME>:
     ...
     volumes:
