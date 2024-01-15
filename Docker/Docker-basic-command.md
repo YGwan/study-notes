@@ -85,3 +85,12 @@ docker network create <OPTIONS> <NETWORK_NAME>
 
 docker network connect <NETWORK_NAME> <CONTAINER_NAME>
 ```
+
+### docker 이미지 생성
+``` shell
+# Dockerfile이 현재 경로에 있을 경우
+docker build -t <생성할 이미지 이름:tag> # tag가 없으면 latest로 자동으로 지정 .
+
+# Dockerfile이 다른 경로에 있을 경우
+docker build -t <생성할 이미지 이름:tag> -f <파일 경로>
+```
