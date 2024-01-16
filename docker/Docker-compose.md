@@ -51,8 +51,8 @@ services:
 <br>
 
 ### 컨테이너에 사용할 이미지 이름과 태그 설정
-``` yaml
 
+``` yaml
 servives:
   <CONTAINER_NAME>:
     image: <image_name:tag>
@@ -62,8 +62,8 @@ servives:
 <br>
 
 ### 컨테이너와 연결할 포트 설정
-``` yaml
 
+``` yaml
 servives:
   <CONTAINER_NAME>:
     ...
@@ -75,8 +75,8 @@ servives:
 <br>
 
 ### 컨테이너에 사용할 환경변수
-``` yaml
 
+``` yaml
 servives:
   <CONTAINER_NAME>:
     ...
@@ -89,8 +89,8 @@ servives:
 <br>
 
 ### 연결할(마운트할) 파일들
-``` yaml
 
+``` yaml
 services:
   <CONTAINER_NAME>:
     ...
@@ -102,8 +102,8 @@ services:
 <br>
 
 ### 재시작 정책 설정
-``` yaml
 
+``` yaml
 servives:
   <CONTAINER_NAME>:
     ...
@@ -117,8 +117,8 @@ no, always, on-failure, unless-stopped
 <br>
 
 ### 이미지 빌드
-``` yaml
 
+``` yaml
 servives:
   <CONTAINER_NAME>:
     ...

@@ -1,11 +1,8 @@
 ### 변수 설정
 
 ```
-
 [변수명]=["실제값"]
-
 CONTAINER_NAME="anime-kr"
-
 ```
 
 <br>
@@ -19,17 +16,15 @@ CONTAINER_NAME="anime-kr"
 
 ### ※ anime-kr의 이름을 포함한 컨테이너들을 필터링하여 표시
 
-```
-
+``` shell
 docker ps -aq -f name="anime-kr"
-
 ```
 
 <br>
 
-### ※ anime-kr 단어만을 가진 컨테이너를 필터링하여 표시
+### anime-kr 단어만을 가진 컨테이너를 필터링하여 표시
 
-```
+``` shell
 docker ps -aq -f name="^anime-kr$"
 docker inspect --format='{{.Name}}' 'anime-kr'
 ```

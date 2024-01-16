@@ -1,7 +1,10 @@
 # Dockerfile
 - docker 이미지를 작성할때 주로 사용
 - 이미지는 스크립트 기반인데, dokerfile 문법으로 이루어져 이를 기반으로 이미지를 생성함
-- 
+
+<br>
+
+### Dockerfile's grammar
 
 ``` shell
 FROM : 베이스 이미지 지정
@@ -27,5 +30,4 @@ ARGS : 빌드 시점에서만 사용되는 환경 변수 설정
 USER : RUN, CMD, ENTRYPOINT를 실행하는 사용자
 
 LABEL : key-value 데이터 형식으로 메타 데이터를 넣을 수 있는 기능.
-
 ```
