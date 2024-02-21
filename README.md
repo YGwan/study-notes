@@ -1,1 +1,22 @@
-# my-tech-note
+## My personal study organization note  
+    .
+    ├── docker
+    │   ├── Comparison-of-value.md
+    │   ├── Docker-basic-command.md
+    │   ├── Docker-compose.md
+    │   ├── Docker-db-create.md
+    │   ├── Docker-volume.md
+    │   └── Dockerfile.md
+    ├── docs
+    │   ├── nGrinder test.png
+    │   └── 트랜잭션.png
+    ├── infra
+    │   ├── build
+    │   │   └── gradlew-build.md
+    │   └── github-actions.md
+    ├── java
+    │   ├── concurrency-test-env.md
+    │   └── map-key-frequence-check.md
+    └── tools
+        ├── nGrinder.md
+        └── siege.md
