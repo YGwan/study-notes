@@ -17,7 +17,7 @@ jobs:
           touch README.md
           git add README.md
           echo -e "# study notes \n## My personal study organization note     " > README.md
-          tree --dirsfirst --noreport -I README.md | sed 's/^/    /; s/\/ /\//g' | sed G >> README.md
+          tree --dirsfirst --noreport -I README.md | awk '{print $0; if (NR%2==0) print ""}' >> README.md
       - name: push
         run: |
           git config --global user.email "actions@github.com"
