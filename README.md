@@ -1,33 +1,43 @@
 # study notes 
 ## My personal study organization note     
-.
-├── docker
+    .
 
-│   ├── Comparison-of-value.md
-│   ├── Docker-basic-command.md
+    ├── docker
 
-│   ├── Docker-compose.md
-│   ├── Docker-db-create.md
+    │   ├── Comparison-of-value.md
 
-│   ├── Docker-volume.md
-│   └── Dockerfile.md
+    │   ├── Docker-basic-command.md
 
-├── docs
-│   ├── nGrinder test.png
+    │   ├── Docker-compose.md
 
-│   └── 트랜잭션.png
-├── infra
+    │   ├── Docker-db-create.md
 
-│   ├── build
-│   │   └── gradlew-build.md
+    │   ├── Docker-volume.md
 
-│   └── github-actions.md
-├── java
+    │   └── Dockerfile.md
 
-│   ├── concurrency-test-env.md
-│   └── map-key-frequence-check.md
+    ├── docs
 
-└── tools
-    ├── nGrinder.md
+    │   ├── nGrinder test.png
 
-    └── siege.md
+    │   └── 트랜잭션.png
+
+    ├── infra
+
+    │   ├── build
+
+    │   │   └── gradlew-build.md
+
+    │   └── github-actions.md
+
+    ├── java
+
+    │   ├── concurrency-test-env.md
+
+    │   └── map-key-frequence-check.md
+
+    └── tools
+
+        ├── nGrinder.md
+
+        └── siege.md
