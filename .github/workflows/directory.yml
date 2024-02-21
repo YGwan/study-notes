@@ -16,7 +16,7 @@ jobs:
           sudo rm -rf README.md
           touch README.md
           git add README.md
-          echo "# study notes \n  ## My personal study organization note     " > README.md
+          echo -e "# study notes \n## My personal study organization note     " > README.md
           tree --dirsfirst --noreport -I README.md | sed 's/^/    /' >> README.md
       - name: push
         run: |
