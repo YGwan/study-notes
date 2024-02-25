@@ -1,4 +1,4 @@
-# Seige Tools
+# Seige Tool
 
 ### 설치 방법
 ```shell
