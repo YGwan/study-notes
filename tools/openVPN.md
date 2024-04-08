@@ -14,4 +14,4 @@ https://openvpn.net/client-connect-vpn-for-mac-os/
 
 <br>
 
-![스크린샷 2024-03-20 오후 1.25.58.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F9k%2F4_twjsn148z98_0hbqr8yh1m0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_4pqXcV%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-03-20%20%EC%98%A4%ED%9B%84%201.25.58.png)
+<img width="214" alt="스크린샷 2024-03-20 오후 1 30 59" src="https://github.com/YGwan/study-notes/assets/50222603/8957171b-3dd9-4445-81de-f4094d2c4157">
