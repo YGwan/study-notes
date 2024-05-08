@@ -25,7 +25,8 @@
     │   └── map-key-frequence-check.md
     ├── spring
     │   ├── base-entity.md
-    │   └── managed-data-sql-file.md
+    │   ├── managed-data-sql-file.md
+    │   └── test-auto-configuration-annotation.md
     └── tools
         ├── clipy.md
         ├── nGrinder.md
