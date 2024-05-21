@@ -31,4 +31,5 @@
         ├── clipy.md
         ├── nGrinder.md
         ├── openVPN.md
-        └── siege.md
+        ├── siege.md
+        └── zsh-autosuggestions.md
