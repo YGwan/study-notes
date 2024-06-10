@@ -18,6 +18,7 @@
     │   └── git-commit-recovery.md
     ├── infra
     │   ├── build
+    │   │   ├── deploy-project-in-ubuntu-ec2.md
     │   │   └── gradlew-build.md
     │   └── github-actions.md
     ├── java
