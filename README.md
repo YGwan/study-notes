@@ -15,7 +15,8 @@
     │   ├── nGrinder test.png
     │   └── 트랜잭션.png
     ├── git
-    │   └── git-commit-recovery.md
+    │   ├── git-commit-recovery.md
+    │   └── gitignore-file-reapply.md
     ├── infra
     │   ├── build
     │   │   ├── deploy-project-in-ubuntu-ec2.md
