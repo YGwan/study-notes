@@ -21,7 +21,8 @@
     │   └── gitignore-file-reapply.md
     ├── infra
     │   ├── build
-    │   │   ├── deploy-project-in-ubuntu-ec2.md
+    │   │   ├── deploy-docker-image.md
+    │   │   ├── deploy-jar-file.md
     │   │   └── gradlew-build.md
     │   └── github-actions.md
     ├── java
