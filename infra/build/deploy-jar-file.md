@@ -133,3 +133,31 @@ source .bashrc
 <br>
 
 #### 그 후 코드를 클론 받고 서버를 실행시키는 위의 과정을 동일하게 진행하면 된다.
+
+<br>
+
+### .jar 배포 전용 shell 파일
+``` shell
+#!/bin/bash
+
+# 스크립트 실행 중 오류 발생 시 중지
+set -e
+
+# 프로젝트 빌드
+echo "🚀 Building the project..."
+./gradlew clean build -x test
+
+# JAR 파일 디렉터리로 이동
+echo "📂 Moving to build/libs directory..."
+cd build/libs/
+
+# 기존 프로세스 종료 (선택 사항)
+echo "🛑 Stopping any existing application..."
+pkill -f '*.jar' || true
+
+# JAR 파일 실행
+echo "🚦 Starting the application..."
+nohup java -jar *.jar > app.log 2>&1 &
+
+echo "✅ Application started successfully!"
+```
