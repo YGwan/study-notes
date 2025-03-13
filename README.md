@@ -6,6 +6,7 @@
     │   ├── Docker-basic-command.md
     │   ├── Docker-compose.md
     │   ├── Docker-db-create.md
+    │   ├── Docker-permission-denied-solved.md
     │   ├── Docker-volume.md
     │   ├── Dockerfile.md
     │   ├── Mysql-create-db.md
@@ -24,6 +25,8 @@
     │   │   ├── deploy-docker-image.md
     │   │   ├── deploy-jar-file.md
     │   │   └── gradlew-build.md
+    │   ├── ubuntu
+    │   │   └── ubuntu-mount-ssd.md
     │   └── github-actions.md
     ├── java
     │   ├── concurrency-test-env.md
