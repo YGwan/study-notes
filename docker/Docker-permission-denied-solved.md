@@ -16,8 +16,7 @@ getent group docker
 
 <br>
 
-### 
-2비어잇으면 그룹 생성
+### 2. 비어잇으면 그룹 생성
 ```bash
 sudo groupadd docker
 ```
