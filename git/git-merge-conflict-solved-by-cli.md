@@ -61,7 +61,7 @@ git add .
 
 #### 머지 추가 진행
 ```
-git merge --contiue
+git merge --continue
 ```
 - 충돌(conflict)을 해결한 후 병합 프로세스를 완료하는 명령어
 - 만약 충돌이 해결되지 않았다면, 다시 에러가 발생한다. -> ```git merge --abort``` 명령어로 병합을 취소하고 이전 상태로 되돌릴 수 있다.
