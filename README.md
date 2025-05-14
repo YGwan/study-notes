@@ -20,6 +20,7 @@
     │   ├── git-commit-recovery.md
     │   ├── git-merge-conflict-solved-by-cli.md
     │   ├── git-repository-mirroring.md
+    │   ├── git-stash.md
     │   └── gitignore-file-reapply.md
     ├── infra
     │   ├── build
